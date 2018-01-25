@@ -40,7 +40,7 @@ print('0')
 print('1')
 #brute force : look for a patter and copy/paste
 
-print('-----')
+print('------')
 
 # for {variable_name} in <collection>:
 # <action>
