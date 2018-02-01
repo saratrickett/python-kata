@@ -52,3 +52,22 @@ print(bool([]))
 name = 'name'
 for character in name:
     print(character)
+
+"""
+practice: create a function that takes an input, then prints each character of the input
+"""
+
+def print_character(input):
+    for character in input:
+        print(character)
+print_character('supercalifragilistic')
+
+"""practice: create a function that takes two inputs, then prints True/False whether or not
+ the first input is contained within the second input """
+
+# == compares
+def search_character(search, find):
+    for character in find:
+        if character == search:
+            print(True)
+search_character('a','Sara')
