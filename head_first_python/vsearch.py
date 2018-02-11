@@ -1,6 +1,5 @@
 def search4vowels(word):
-    """Display any vowels found in a supplied word."""
+    """Return a boolean based on any vowels found."""
     vowels = set('aeiou')
     found = vowels.intersection(set(word))
-    for vowel in found:
-        print(vowel)
+    return bool(found)
