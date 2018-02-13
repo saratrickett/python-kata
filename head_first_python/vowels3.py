@@ -3,8 +3,11 @@ PRACTICE: Determine if a given word contain any vowels and print those wowels on
 """
 
 vowels = ['a', 'e', 'i', 'o', 'u']
-word = "Millaways"
+word = input("Provide a word to search for vowels:")
+found = []
 for letter in word:
     if letter in vowels:
-        print (letter)
-        
+        if letter not in found:
+            found.append(letter)
+for vowel in found:
+    print(vowel)

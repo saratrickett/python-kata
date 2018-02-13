@@ -30,10 +30,20 @@
 # < -> less than
 # <= -> les than equal
 
+count = 1
+    if count == 2:
+        print ('1')
+        print('Done')
+
+
 
 """
   PRACTICE: print each letter in a given string
 """
+text_value = 'some input'
+
+print('\n'.join(text_value))
+
 
 string = "pineapple"
 

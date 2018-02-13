@@ -9,6 +9,9 @@ _bool = True # False
 _int = 1
 _float = 1.0
 
+#list
+#dict
+
 message = 'hello world'
 
 print(message)

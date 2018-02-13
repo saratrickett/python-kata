@@ -19,6 +19,7 @@ _float = 1.0
 _float_negative = -1.0
 
 # list
+# dict
 
 _list = ['alex', 'grande', 'sara',
          'danie', 'laura', 'jen']
