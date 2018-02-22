@@ -4,6 +4,31 @@
 # int - integer
 # float
 # list
+# dict
+
+attendees = ['sara', 'alex', 'justin', 'ryan']
+
+for attendee in attendees:
+    print(attendee)
+
+    print(attendees[0])
+# key = value
+employees ={
+    'sara': 'csa'
+    'alex': 'it support tech'
+    'justin': 'software ninja'
+    'ryan': 'numbers nerd'
+}
+
+print(employees['sara'])
+print(employees.get('ilya', 'russian spy'))
+print(employees)
+
+for key in employees:
+    print(key + '-' + employees[key])
+
+for (key, value) in employees.items():
+    print(key + '-' +value)
 
 # CASTING
 # str + int = runtime exception
