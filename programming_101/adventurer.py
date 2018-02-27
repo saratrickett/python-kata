@@ -1,3 +1,15 @@
+# a class encapsulates behavior and state
+
+class Hat:
+    def __init__(self):
+        pass
+
+hat = Hat()
+
+print(hat)
+print(hat.__name__)
+print(hat.__class__)
+
 import random
 
 class Adventurer:

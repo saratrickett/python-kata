@@ -46,6 +46,12 @@ for (key, value) in employees.items():
 #   pass
 # else <bool>:
 #   pass
+
+#--exception handling--
+#try >expression>:
+# <action>
+#except [error_type]:
+#   <handle error>
 #
 # --comparisons--
 # == -> equals
